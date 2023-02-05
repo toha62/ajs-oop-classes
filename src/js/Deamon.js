@@ -1,6 +1,6 @@
 const { Character } = require('./Character');
 
-class Daemon extends Character {
+class Deamon extends Character {
   constructor(name) {
     super(name, 'Daemon');
     this.attack = 10;
@@ -9,5 +9,5 @@ class Daemon extends Character {
 }
 
 module.exports = {
-  Daemon,
+  Deamon,
 };
