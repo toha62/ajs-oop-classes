@@ -1,13 +1,9 @@
-const { Character } = require('./Character');
+import Character from './Character';
 
-class Bowerman extends Character {
+export default class Bowerman extends Character {
   constructor(name) {
     super(name, 'Bowerman');
     this.attack = 25;
     this.defence = 25;
   }
 }
-
-module.exports = {
-  Bowerman,
-};

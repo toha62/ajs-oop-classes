@@ -1,4 +1,4 @@
-class Character {
+export default class Character {
   constructor(name, type) {
     if (!(typeof (name) === 'string')) {
       throw new Error('"name" is not a string');
@@ -12,7 +12,3 @@ class Character {
     this.level = 1;
   }
 }
-
-module.exports = {
-  Character,
-};
